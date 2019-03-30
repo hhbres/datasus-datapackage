@@ -1,0 +1,122 @@
+name: datasus-sihsus
+title: DATASUS - SIHSUS: Sistema de Informações Hospitalares do SUS
+description: A finalidade do AIH (Sistema SIHSUS) é registrar todos os atendimentos provenientes de internações hospitalares que foram financiadas pelo SUS, e a partir deste processamento, gerar relatórios para que os gestores possam fazer os pagamentos dos estabelecimentos de saúde. Além disso, o nível Federal recebe mensalmente uma base de dados de todas as internações autorizadas (aprovadas ou não para pagamento) para que possam ser repassados às Secretarias de Saúde os valores de Produção de Média e Alta complexidade, além dos valores de CNRAC, FAEC e de Hospitais Universitários – em suas variadas formas de contrato de gestão.
+homepage: http://datasus.saude.gov.br/
+version: '0.1'
+keywords: 
+  - saúde
+  - health
+sources:
+  - name: DATASUS > Serviços > Transferência/Download de Arquivos > Arquivos de Dados
+    web: http://www2.datasus.gov.br/DATASUS/index.php?area=0901&item=1&acao=25
+contributors:
+  - name: Hacking Health Espírito Santo
+    email: espiritosanto@hacking-health.org
+    web: https://hacking-health.org/pt/espirito-santo/
+resources:
+  - name: datasus-sihsus-rdes1901
+    title: Espírito Snato: RD - AIH Reduzida | RJ - AIH Rejeitadas | SP - Serviços Profissionais | ER - AIH Rejeitadas com código de erro
+    format: dbc
+    mediatype: application/x-dbf
+    path: ftp://ftp.datasus.gov.br/dissemin/publicos/SIHSUS/200801_/dados/RDES1901.dbc
+    schema: 
+      - name: UF_ZI
+        title: Município Gestor
+        type: string 
+        format: 
+        description: 
+      - name: ANO_CMPT
+        title: Ano de processamento da AIH
+        type: date  
+        format: %Y
+        description:
+      - name: MÊS_CMPT
+        title: Mês de processamento da AIH
+        type: date  
+        format: %m
+        description:
+      - name: ESPEC
+        title: Especialidade do Leito
+        type: string
+        format: 
+        description:
+      - name: CGC_HOSP
+        title: CNPJ do Estabelecimento
+        type: string
+        format: 
+        description:
+      - name: N_AIH
+        title: Número da AIH
+        type: string
+        format: 
+        description:
+      - name: IDENT
+        title: Identificação do tipo da AIH
+        type: string
+        format: 
+        description:
+      - name: CEP
+        title: CEP do paciente
+        type: string
+        format: 
+        description:
+      - name: MUNIC_RES
+        title: Município de Residência do Paciente
+        type: string
+        format: 
+        description:
+      - name: NASC
+        title: Data de nascimento do paciente
+        type: string
+        format: %Y%m%d
+        description:
+      - name: SEXO
+        title: Sexo do paciente
+        type: string
+        format: 
+        description:
+      - name: UTI_MES_IN
+        title: 
+        type: string
+        format: 
+        description: zerado
+      - name: UTI_MES_AN
+        title: 
+        type: string
+        format: 
+        description: zerado
+      - name: UTI_MES_AL
+        title: 
+        type: string
+        format: 
+        description: zerado
+      - name: UTI_MES_TO
+        title: Quantidade de dias de UTI no mês
+        type: string
+        format: 
+        description: 
+      - name: MARCA_UTI
+        title: Indica qual o tipo de UTI utilizada pelo paciente
+        type: string
+        format: 
+        description: 
+      - name: MARCA_UTI
+        title: Indica qual o tipo de UTI utilizada pelo paciente
+        type: string
+        format: 
+        description: 
+      - name: UTI_INT_IN
+        title: 
+        type: string
+        format: 
+        description: zerado
+      - name: UTI_INT_AN
+        title: 
+        type: string
+        format: 
+        description: zerado
+      - name: UTI_INT_AL
+        title: 
+        type: string
+        format: 
+        description: zerado
