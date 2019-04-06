@@ -1,0 +1,58 @@
+{
+  "name": "datasus-sihsus",
+  "title": "DATASUS",
+  "description": "O DATASUS disponibiliza informações que podem servir para subsidiar  análises objetivas da situação sanitária, tomadas de decisão baseadas em evidências e elaboração de programas de ações de saúde.",
+  "homepage": "http://datasus.saude.gov.br/",
+  "version": "0.1",
+  "keywords": [
+    "saúde",
+    "health"
+  ],
+  "sources": [
+    {
+      "name": "DATASUS > Serviços > Transferência/Download de Arquivos",
+      "web": "http://www2.datasus.gov.br/DATASUS/index.php?area=0901"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Hacking Health Espírito Santo",
+      "email": "espiritosanto@hacking-health.org",
+      "web": "https://hacking-health.org/pt/espirito-santo/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "datasus-sihsus-rdes1901",
+      "title": "SIHSUS RD ES 2019/01",
+      "format": "dbc",
+      "mediatype": "application/x-dbf",
+      "path": "ftp://ftp.datasus.gov.br/dissemin/publicos/SIHSUS/200801_/dados/RDES1901.dbc",
+      "schema": "schemas/sihsus.json"
+    },
+    {
+      "name": "datasus-sinasc-dnes2015",
+      "title": "SINASC DN ES 2016",
+      "format": "dbc",
+      "mediatype": "application/x-dbf",
+      "path": "ftp://ftp.datasus.gov.br/dissemin/publicos/SINASC/NOV/DNRES/DNES2016.dbc",
+      "schema": "schemas/sinasc.json"
+    },
+    {
+      "name": "datasus-sim-does2016",
+      "title": "SIM DO ES 2016",
+      "format": "dbc",
+      "mediatype": "application/x-dbf",
+      "path": "ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/CID10/DORES/DOES2016.dbc",
+      "schema": null
+    },
+    {
+      "name": "datasus-sisprenatal-pnes1412",
+      "title": "SISPRENATAL PN ES 2014",
+      "format": "dbc",
+      "mediatype": "application/x-dbf",
+      "path": "ftp://ftp.datasus.gov.br/dissemin/publicos/SISPRENATAL/201201_/Dados/PNES1412.dbc",
+      "schema": null
+    }
+  ]
+}
