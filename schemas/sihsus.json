@@ -1,0 +1,144 @@
+{
+  "schema": [
+    {
+      "name": "UF_ZI",
+      "title": "Município Gestor",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "ANO_CMPT",
+      "title": "Ano de processamento da AIH",
+      "type": "date",
+      "format": "%Y",
+      "description": null
+    },
+    {
+      "name": "MÊS_CMPT",
+      "title": "Mês de processamento da AIH",
+      "type": "date",
+      "format": "%m",
+      "description": null
+    },
+    {
+      "name": "ESPEC",
+      "title": "Especialidade do Leito",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "CGC_HOSP",
+      "title": "CNPJ do Estabelecimento",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "N_AIH",
+      "title": "Número da AIH",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "IDENT",
+      "title": "Identificação do tipo da AIH",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "CEP",
+      "title": "CEP do paciente",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "MUNIC_RES",
+      "title": "Município de Residência do Paciente",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "NASC",
+      "title": "Data de nascimento do paciente",
+      "type": "string",
+      "format": "%Y%m%d",
+      "description": null
+    },
+    {
+      "name": "SEXO",
+      "title": "Sexo do paciente",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "UTI_MES_IN",
+      "title": null,
+      "type": "string",
+      "format": null,
+      "description": "zerado"
+    },
+    {
+      "name": "UTI_MES_AN",
+      "title": null,
+      "type": "string",
+      "format": null,
+      "description": "zerado"
+    },
+    {
+      "name": "UTI_MES_AL",
+      "title": null,
+      "type": "string",
+      "format": null,
+      "description": "zerado"
+    },
+    {
+      "name": "UTI_MES_TO",
+      "title": "Quantidade de dias de UTI no mês",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "MARCA_UTI",
+      "title": "Indica qual o tipo de UTI utilizada pelo paciente",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "MARCA_UTI",
+      "title": "Indica qual o tipo de UTI utilizada pelo paciente",
+      "type": "string",
+      "format": null,
+      "description": null
+    },
+    {
+      "name": "UTI_INT_IN",
+      "title": null,
+      "type": "string",
+      "format": null,
+      "description": "zerado"
+    },
+    {
+      "name": "UTI_INT_AN",
+      "title": null,
+      "type": "string",
+      "format": null,
+      "description": "zerado"
+    },
+    {
+      "name": "UTI_INT_AL",
+      "title": null,
+      "type": "string",
+      "format": null,
+      "description": "zerado"
+    }
+  ]
+}

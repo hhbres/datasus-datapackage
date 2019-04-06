@@ -1,0 +1,214 @@
+{
+  "schema": [
+    {
+      "name": "NUMERODN",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Número da DN, seqüencial por UF informante e por ano."
+    },
+    {
+      "name": "LOCNASC",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Local de ocorrência do nascimento, conforme a tabela:\n9: Ignorado\n1: Hospital\n2: Outro Estabelecimento de Saúde\n3: Domicílio\n4: Outros"
+    },
+    {
+      "name": "CODESTAB",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Código de estabelecimento de saúde."
+    },
+    {
+      "name": "CODBAINASC",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Código Bairro nascimento."
+    },
+    {
+      "name": "CODMUNNASC",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Código do município de ocorrência. "
+    },
+    {
+      "name": "IDADEMAE",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Idade da mãe em anos."
+    },
+    {
+      "name": "ESTCIVMAE",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Estado civil, conforme a tabela:\n1: Solteira\n2: Casada\n3: Viúva\n4: Separado judicialmente/Divorciado\n9: Ignorado"
+    },
+    {
+      "name": "ESCMAE",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Escolaridade, anos de estudo concluídos:\n1: Nenhuma\n2: 1 a 3 anos\n3: 4 a 7 anos\n4: 8 a 11 anos\n5: 12 e mais\n9: Ignorado"
+    },
+    {
+      "name": "CODOCUPMAE",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Ocupação, conforme a Classificação Brasileira de Ocupações (CBO-2002)."
+    },
+    {
+      "name": "QTDFILVIVO",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Número de filhos vivos."
+    },
+    {
+      "name": "QTDFILMORT",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Número de filhos mortos."
+    },
+    {
+      "name": "CODBAIRES",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Código bairro residência."
+    },
+    {
+      "name": "CODMUNRES",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Município de residência da mãe."
+    },
+    {
+      "name": "GESTACAO",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Semanas de gestação, conforme a tabela:\n9: Ignorado\n1: Menos de 22 semanas\n2: 22 a 27 semanas\n3: 28 a 31 semanas\n4: 32 a 36 semanas\n5: 37 a 41 semanas\n6: 42 semanas e mais"
+    },
+    {
+      "name": "GRAVIDEZ",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Tipo de gravidez, conforme a tabela:\n9: Ignorado\n1: Única\n2: Dupla\n3: Tripla e mais"
+    },
+    {
+      "name": "PARTO",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Tipo de parto, conforme a tabela:\n9: Ignorado\n1: Vaginal\n2: Cesáreo"
+    },
+    {
+      "name": "CONSULTAS",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Número de consultas de pré-natal:\n1: Nenhuma\n2: de 1 a 3\n3: de 4 a 6\n4: 7 e mais\n9: Ignorado"
+    },
+    {
+      "name": "DTNASC",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Data do nascimento, no formato ddmmaaaa"
+    },
+    {
+      "name": "HORANASC",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Sexo, conforme a tabela:\n0: Ignorado\n1: Masculino\n2: Feminino"
+    },
+    {
+      "name": "SEXO",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Sexo, conforme a tabela:\n0: Ignorado\n1: Masculino\n2: Feminino"
+    },
+    {
+      "name": "APGAR 1",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Apgar no primeiro minuto de 00 a 10"
+    },
+    {
+      "name": "APGAR 5",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Apgar no quinto minuto de 00 a 10"
+    },
+    {
+      "name": "RACACOR",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Raça/Cor:\n1:Branca\n2:Preta\n3:Amarela\n4: Parda\n5: Indígena"
+    },
+    {
+      "name": "PESO",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Peso ao nascer, em gramas."
+    },
+    {
+      "name": "IDANOMAL",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Anomalia congênita:\n9-Ignorado\n1=Sim\n2=Não"
+    },
+    {
+      "name": "CODANOMAL",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Código de malformação congênita ou anomalia cromossômica, de acordo com a CID-10."
+    },
+    {
+      "name": "DTCADASTR0",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Data de cadastramento no sistema."
+    },
+    {
+      "name": "DTRECEBIM",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Data de recebimento no nível central, data da última atualização do registro."
+    },
+    {
+      "name": "CODINST",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Código da Instalação da geração dos Registros."
+    },
+    {
+      "name": "UFINFORM",
+      "title": "",
+      "type": "",
+      "format": "",
+      "description": "Código da UF que informou o registro."
+    }
+  ]
+}
